@@ -2,4 +2,7 @@ module github.com/jasonwebb3152/bookstore_oauth-go
 
 go 1.22.0
 
-require github.com/mercadolibre/golang-restclient v0.0.0-20170701022150-51958130a0a0 // indirect
+require (
+	github.com/go-resty/resty/v2 v2.16.2 // indirect
+	golang.org/x/net v0.32.0 // indirect
+)
