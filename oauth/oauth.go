@@ -98,7 +98,7 @@ func cleanRequest(request *http.Request) {
 func getAccessToken(accessTokenId string) (*accessToken, *errors.RestErr) {
 	resp, err := client.R().SetHeader("Accept", "application/json").Get(fmt.Sprintf("%s/oauth/access_token/%s", base_url, accessTokenId))
 	if err != nil {
-		return nil, errors.NewInternalServerError("invalid shit, go fuck yourself")
+		return nil, errors.NewInternalServerError("failed to retrive access token")
 	}
 
 	if resp == nil || resp.RawResponse == nil {
