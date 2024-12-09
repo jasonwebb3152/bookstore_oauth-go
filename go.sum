@@ -1,5 +1,7 @@
 github.com/go-resty/resty/v2 v2.16.2 h1:CpRqTjIzq/rweXUt9+GxzzQdlkqMdt8Lm/fuK/CAbAg=
 github.com/go-resty/resty/v2 v2.16.2/go.mod h1:0fHAoK7JoBy/Ch36N8VFeMsK7xQOHhvWaC3iOktwmIU=
+github.com/jasonwebb3152/utils-go v0.0.0-20241209034718-100a5a34acb3 h1:tTtomrQf8ptgL4IxKIV+qs2YPzf2Kl1iqjfqknLowD4=
+github.com/jasonwebb3152/utils-go v0.0.0-20241209034718-100a5a34acb3/go.mod h1:M+YgLwDxkzW7czWDS7fE3ihSiQoOgICWkqMk239qVUQ=
 github.com/mercadolibre/golang-restclient v0.0.0-20170701022150-51958130a0a0 h1:EDOjA2IGgjSBlPlnW7CzBUo/o410SMiFh670jP29Kc4=
 github.com/mercadolibre/golang-restclient v0.0.0-20170701022150-51958130a0a0/go.mod h1:Z7qYja4aGk/RWl1yJtN1LXRvC7Hsbq8SEbqWWDrMqMs=
 golang.org/x/net v0.32.0 h1:ZqPmj8Kzc+Y6e0+skZsuACbx+wzMgo5MQsJh9Qd6aYI=
