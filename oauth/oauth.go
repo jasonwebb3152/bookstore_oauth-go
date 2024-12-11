@@ -30,12 +30,6 @@ type accessToken struct {
 	ClientId int64  `json:"client_id"`
 }
 
-type oauthClient struct {
-}
-
-type oauthInterface interface {
-}
-
 func IsPublic(request *http.Request) bool {
 	if request == nil {
 		return true
